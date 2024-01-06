@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #b1afaf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 330px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.head_content{
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.username_card > input{
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+.username_card_hr{
+    width: 300px;
+}
+.password_card{
+    padding-top: 25px;
+}
+.password_card{
+    width: 300px;
+}
+.password_card_hr{
+    width: 300px;
+}
+.password_card > input {
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+.button_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 15px;
+    
+}
+.button_section{
+    padding: 8px 135px;
+    background-color: rgb(56, 56, 255);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
