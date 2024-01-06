@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            /* flex-direction: column;
+            align-items: flex-end; */
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+        footer{
+            /* position: fixed; */
+            margin-top: auto;
+            width: 100%;
+            height: 400px;
+            background-color: #121315;
+            
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 2fr;
+            align-items: stretch;
+            padding-left: 50px;
+            padding-top: 80px;
+        }
+        .box1{
+            width: 300px;
+        }
+        .box1> h2{
+            color: #ffffff;
+        }
+        .box1>p{
+            color: #b2b2c2;
+        }
+        .box2 > ul{
+            list-style: none;
+           
+        }
+        .box2 > ul > li {
+            margin-top: 15px;
+        }
+        .box2 > ul > li > a {
+            text-decoration: none;
+            color: #b2b2c2;
+        }
+        .box2 > ul > li > a:hover {
+            color: #3434c8;
+        }
+        .box3 > ul > li > a:hover {
+            color: #3434c8;
+        }
+        .box3 > ul{
+            list-style: none;
+           
+        }
+        .box3 > ul > li {
+            margin-top: 15px;
+
+        }
+        .box3 > ul > li > a {
+            text-decoration: none;
+            color: #b2b2c2;
+        }
+        .box4{
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            width: 213px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #0000ff;
+            color: white;
+        }
+        input{
+            margin-bottom: 5px;
+            width: 190px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .box2 > h2 {
+            color: #ffffff;
+        }
+        .box3 > h2 {
+            color: #ffffff;
+        }
+        .box4 > h2 {
+            color: #ffffff;
+        }
+
+        @media screen and (min-height: 768px) {
+            .container{
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <footer>
+       <div class="container">
+        <div class="box1">
+            <h2>One Card</h2>
+            <p>India's best metal credit card. Built with full-stack tech. Backed by the principles of simplicity, transparency, and giving back control to the user.</p>
+        </div>
+        <div class="box2">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Offers</a></li>
+            </ul>
+        </div>
+        <div class="box3">
+            <h2>Support</h2>
+            <ul>
+                <li><a href="#">F.A.Q</a></li>
+                <li><a href="#">Cookies Policy</a></li>
+                <li><a href="#">Terms Of Service</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+        <div class="box4">
+            <h2>Newsletter</h2>
+            <input type="email" name="" id="" placeholder="Your email id here">
+            <button>Subscribe</button>
+        </div>
+       </div>
+    </footer>
+</body>
+</html>

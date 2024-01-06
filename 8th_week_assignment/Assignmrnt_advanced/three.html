@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .container{
+            margin: 200px;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #000000;
+            background-image: linear-gradient(to top right,  #7d84e9, #4259ce );
+            border-radius: 12px;
+        }
+        .date{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 15px;
+        }
+        .date > p{
+            padding-top: 10px;
+            color: #ffffff;
+        }
+        .list{
+            padding-top: 10px;
+            padding-left: 25px;
+        }
+        button{
+            width: 90%;
+            padding: 10px 0px;
+            margin-left: 15px;
+            margin-top: 10px;
+            border-radius: 7px;
+            background-image: linear-gradient(to top right,  #95e497, #5fe864 );
+            border: 0;
+        }
+        .container:hover{
+            transform: rotate(-45deg);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="date">
+            <h2>#01</h2>
+            <p>Created On : 01/01/2023</p>
+        </div>
+        <div class="list">
+            <h2>Important Dates</h2>
+            <ul>
+                <li>January 26 - Republic Day</li>
+                <li>Agust 15 - Independence Day</li>
+                <li>October 2 - Gandhi Jayanti</li>
+                <li>August 29 - National Sports Day</li>
+            </ul>
+        </div>
+        <button>Mark as Done</button>
+    </div>
+</body>
+</html>
