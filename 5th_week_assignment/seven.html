@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            height: 500px;
+            width: 350px;
+        }
+        .box1{
+            top: 30px;
+            left: 30px;
+            height: 200px;
+            width: 150px;
+            background-color: red;
+            border: 2px solid black;
+            border-radius: 9%;
+        }
+        .box1 > img{
+            height: 75%;
+            width: 75%;
+            padding-left: 15%;
+            padding-top: 12%;
+            
+        }
+        .box2{
+            top: 50px;
+            left: 50px;
+            height: 200px;
+            width: 150px;
+            background-color: #eaff00;
+            border: 2px solid black;
+            border-radius: 9%;
+        }
+        .box2 > img {
+            height: 75%;
+            width: 75%;
+            padding-left: 23%;
+            padding-top: 12%;
+        }
+        .box3{
+            position: absolute;
+            top: 70px;
+            left: 90px;
+            height: 200px;
+            width: 150px;
+            background-color: #2f2496;
+            border: 2px solid black;
+            border-radius: 9%;
+        }
+        .box3 img {
+            height: 75%;
+            width: 75%;
+            padding-left: 15%;
+            padding-top: 12%;
+        }
+        .box:hover{
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <dev class="container">
+        <div class="box box1">
+            <img src="./stock-vector-cute-and-adorable-vector-illustration-of-creature-characters-in-pokemon-go-2313970711.jpg" alt="">
+        </div>
+        <div class="box box2">
+            <img src="./pokemon_rowlet.png" alt="">
+        </div>
+        <div class="box box3">
+            <img src="./172.png" alt="">
+        </div>
+    </dev>
+</body>
+</html>
