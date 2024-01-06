@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns:repeat(2, 1fr);
+            align-items: center;
+            border: 3px solid black;
+            gap: 10px;
+            margin: 15px;
+        }
+        .item1{
+            padding: 0px 45px;
+        }
+        .item2{
+            background-color: yellow;
+            margin-right: 25px;
+        }
+        .item2 > img {
+            width: 500px;
+            height: 600px;
+        }
+        .read{
+            padding: 5px 25px;
+            background-color: black;
+            color: white;
+        }
+        h1{
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem repudiandae error ea reprehenderit perspiciatis, expedita quos eligendi ab, porro itaque obcaecati? Molestiae dolorem vero explicabo, ipsa non eius nesciunt iusto voluptas consectetur, distinctio facilis amet iste eum illum. Voluptatem perspiciatis saepe facilis sapiente earum, perferendis sed provident repellat quidem.</p>
+            <button class="read" type="button">Read More</button>
+        </div>
+        <div class="item2">
+            <img src="https://images.pexels.com/photos/6608618/pexels-photo-6608618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        </div>
+    </div>
+</body>
+</html>

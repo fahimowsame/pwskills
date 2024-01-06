@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Time Table</title>
+
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            border: 3px solid black;
+            padding: 10px;
+            
+        }
+        .first-row{
+            height: 70px;
+            border: 2px dotted black;
+            background-color: #ca5454;
+            text-align: center;
+            padding-top: 40px;
+          
+        }
+        .week{
+            height: 50px;
+            padding-top: 20px;
+            border: 2px dotted black;
+            background-color: #8c278c;
+            text-align: center;
+
+        }
+        .sky-blue{
+            height: 50px;
+            text-align: center;
+            border: 2px dotted black;
+            background-color: #87ceeb;
+            padding-top: 20px;
+        }
+        .Lunch{
+            height: 55px;
+            text-align: center;
+            border: 0;
+            padding-top: 20px;
+            background-color: #d9d950;
+        }
+        .Chemistry{
+            height: 50px;
+            text-align: center;
+            padding-top: 20px;
+            grid-column: 7/9;
+            border: 2px dotted black;
+            background-color: #81a6b6;
+        }
+        .Biology{
+            height: 50px;
+            text-align: center;
+            padding-top: 20px;
+            grid-column: 2/4;
+            border: 2px dotted black;
+        }
+        .game{
+            height: 50px;
+            text-align: center;
+            padding-top: 20px;
+            grid-column: 7/9;
+            border: 2px dotted black;
+            background-color: #149b14;
+        }
+        .Physics{
+            height: 50px;
+            text-align: center;
+            padding-top: 20px;
+            grid-column: 7/9;
+            border: 2px dotted black;
+            background-color: #81a6b6;
+        }
+        h1{
+            text-align: center;
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>School Timetable</h1>
+    <div class="container">
+        <div class="first-row">Time</div>
+        <div class="first-row">08:00 AM - 09:00 AM</div>
+        <div class="first-row">09:00 AM - 10:00 AM</div>
+        <div class="first-row">10:00 AM - 11:00 AM</div>
+        <div class="first-row">11:00 AM - 12:00 PM</div>
+        <div class="first-row">12:00 PM - 02:00 PM</div>
+        <div class="first-row">02:00 PM - 03:00 PM</div>
+        <div class="first-row">03:00 PM - 04:00 PM</div>
+
+        <div class="week">Monday</div>
+        <div class="sky-blue">English</div>
+        <div class="sky-blue">Biology</div>
+        <div class="sky-blue">Physics</div>
+        <div class="sky-blue">Chemistry</div>
+        <div class="Lunch">L</div>
+        <div class="Chemistry">Chemistry LAB</div>
+
+        <div class="week">Tuesday</div>
+        <div class="Biology">Biology LAB</div>
+        <div class="sky-blue">Physics</div>
+        <div class="sky-blue">Chemistry</div>
+        <div class="Lunch">U</div>
+        <div class="sky-blue">English</div>
+        <div class="sky-blue">Biology</div>
+
+        <div class="week">Wednesday</div>
+        <div class="sky-blue">English</div>
+        <div class="sky-blue">Biology</div>
+        <div class="sky-blue">Physics</div>
+        <div class="sky-blue">Chemistry</div>
+        <div class="Lunch">N</div>
+        <div class="game">Games</div>
+
+        <div class="week">Thursday</div>
+        <div class="Biology">Biology LAB</div>
+        <div class="sky-blue">Physics</div>
+        <div class="sky-blue">Chemistry</div>
+        <div class="Lunch">C</div>
+        <div class="sky-blue">English</div>
+        <div class="sky-blue">Biology</div>
+
+        <div class="week">Friday</div>
+        <div class="sky-blue">English</div>
+        <div class="sky-blue">Biology</div>
+        <div class="sky-blue">Physics</div>
+        <div class="sky-blue">Chemistry</div>
+        <div class="Lunch">H</div>
+        <div class="Physics">Physics Lab</div>
+
+        <div class="week">Saturday</div>
+        <div class="Biology">Biology LAB</div>
+        <div class="sky-blue">Physics</div>
+        <div class="sky-blue">Chemistry</div>
+        <div class="Lunch">Break</div>
+        <div class="game">LET OFF</div>
+    </div>
+</body>
+</html>

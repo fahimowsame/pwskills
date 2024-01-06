@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+        max-width: 80%px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+      }
+
+      .container > img {
+        width: 50px;
+        padding-left: 20px;
+      }
+
+      .container a {
+        text-decoration: none;
+        padding-right: 50px;
+        color: #000;
+        font-weight: bold;
+      }
+
+      .login{
+        padding: 10px 0px;
+        margin-left: 40%;
+        background-color: #51e551;
+        border-radius: 10px;
+        color: #000;
+      }
+      
+      .container_para{
+            display: grid;
+            height: 100vh;
+            grid-template-columns:repeat(2, 1fr);
+            align-items: center;
+            gap: 10px;
+            margin: 15px;
+        }
+        .item1{
+            padding: 0px 45px;
+        }
+        .item2{
+            background-color: yellow;
+            margin-right: 25px;
+        }
+        .item2 > img {
+            width: 500px;
+            height: 600px;
+        }
+        .read{
+            padding: 5px 25px;
+            background-color: black;
+            color: white;
+        }
+        h1{
+            font-size: 45px;
+        }
+         .footer{
+            width: 100%;
+            height: 450px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #9f4444;
+            margin-top: 25px;
+            align-items: center;
+        }
+        .box1{
+            padding-left: 25px;
+            width: 250px;
+            text-align: center;
+            margin: 10px 50px;
+        }
+        .box2{
+            padding-left: 25px;
+            width: 250px;
+            text-align: center;
+            margin: 10px 50px;
+        }
+        .box3{
+            padding-left: 25px;
+            width: 250px;
+            text-align: center;
+            margin: 10px 50px;
+        }
+        .box1 > img {
+            width: 120px;
+        }
+        .box2 > img {
+            width: 120px;
+        }
+        .box3 > img {
+            width: 120px;
+            padding-top: 30px;
+        }
+        .box1 > h2, p {
+            text-align: start;
+            margin: 0;
+            color: whi;
+        }
+        .box2 > h2, p {
+            text-align: start;
+            margin: 0;
+        }
+        .box3 > h2, p {
+            text-align: start;
+            margin: 0;
+        }
+        .element{
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(3, 1fr);
+            height: 350px;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .element1 > img{
+            width: 300px;
+            height: 180px;
+            border-top-right-radius: 10%;
+            border-top-left-radius: 10%;
+        }
+        .element2 > img{
+            width: 300px;
+            height: 180px;
+            border-top-right-radius: 10%;
+            border-top-left-radius: 10%;
+        }
+        .element3 > img{
+            width: 300px;
+            height: 180px;
+            border-top-right-radius: 10%;
+            border-top-left-radius: 10%;
+        }
+        .element1{
+            width: 300px;
+            height: 250px;
+            border: 1px solid black;
+            margin-left: 60px;
+            text-align: justify;
+            border-radius: 10%;
+        }
+        .element2{
+            width: 300px;
+            height: 250px;
+            border: 1px solid black;
+            margin-left: 60px;
+            text-align: justify;
+            border-radius: 10%;
+        }
+        .element3{
+            width: 300px;
+            height: 250px;
+            border: 1px solid black;
+            margin-left: 60px;
+            text-align: justify;
+            border-radius: 10%;
+        }
+        .element1_heading, .element1_para{
+            padding-left: 15px;
+            margin: 0;
+        }
+        .element2_heading, .element2_para{
+            padding-left: 15px;
+            margin: 0;
+        }
+        .element3_heading, .element3_para{
+            padding-left: 15px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <img
+          src="https://img.freepik.com/free-vector/organic-food_24908-54079.jpg?w=740&t=st=1696099933~exp=1696100533~hmac=d44d24fe71558800ef3336d1948afbb617e2e4da5b9ec93a01d8c3a9908216f3"alt="Logo"/>
+        <div>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <button class="login">Login</button>
+      </nav>
+      <div class="container_para">
+        <div class="item1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem repudiandae error ea reprehenderit perspiciatis, expedita quos eligendi ab, porro itaque obcaecati? Molestiae dolorem vero explicabo, ipsa non eius nesciunt iusto voluptas consectetur, distinctio facilis amet iste eum illum. Voluptatem perspiciatis saepe facilis sapiente earum, perferendis sed provident repellat quidem.</p>
+            <button class="read" type="button">Read More</button>
+        </div>
+        <div class="item2">
+            <img src="https://images.pexels.com/photos/6608618/pexels-photo-6608618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="box1">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="Delivary logo">
+            <h2>No Minimum Order</h2>
+            <p>order in for yourself or for the group, with no restriction on order value </p>
+        </div>
+        <div class="box2">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="Delivary logo">
+            <h2>Live Order Tracking</h2>
+            <p>Know where your order is at all times, from the resturent to your doorstep </p>
+        </div>
+        <div class="box3">
+            <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="Delivary logo">
+            <h2>Lightning-Fast Delivary</h2>
+            <p>Experience swihggy's supergfast delivary for food deliveredfresh and on time</p>
+        </div>
+    </div>
+    <div class="element">
+        <div class="element1">
+            <img src="https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="online food">
+            <h2 class="element1_heading">Order Online</h2>
+            <p class="element1_para">Stay Home and Order to your Door Step </p>
+        </div>
+        <div class="element2">
+            <img src="https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Onsite dining">
+            <h2 class="element2_heading">On-site Dining</h2>
+            <p class="element2_para">View the Cities Favourite dininhg vanue</p>
+        </div>
+        <div class="element3">
+            <img src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nightlife">
+            <h2 class="element3_heading">Nightlife & Club</h2>
+            <p class="element3_para">Explore the cities top Nightlife Outlate and book tables </p>
+        </div>
+    </div>
+</body>
+</html>

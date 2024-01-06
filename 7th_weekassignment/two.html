@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Restaurant</title>
+
+    <style>
+
+      .container {
+        max-width: 80%px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+      }
+
+      .container > img {
+        width: 50px;
+        padding-left: 20px;
+      }
+
+      .container a {
+        text-decoration: none;
+        padding-right: 50px;
+        color: #000;
+        font-weight: bold;
+      }
+
+      .login{
+        padding: 10px 0px;
+        margin-left: 40%;
+        background-color: #51e551;
+        border-radius: 10px;
+        color: #000;
+      }
+      
+      .container_para{
+            display: grid;
+            height: 100vh;
+            grid-template-columns:repeat(2, 1fr);
+            align-items: center;
+            gap: 10px;
+            margin: 15px;
+        }
+        .item1{
+            padding: 0px 45px;
+        }
+        .item2{
+            background-color: yellow;
+            margin-right: 25px;
+        }
+        .item2 > img {
+            width: 500px;
+            height: 600px;
+        }
+        .read{
+            padding: 5px 25px;
+            background-color: black;
+            color: white;
+        }
+        h1{
+            font-size: 45px;
+        }
+      
+
+    </style>
+  </head>
+  <body>
+    <nav class="container">
+      <img
+        src="https://img.freepik.com/free-vector/organic-food_24908-54079.jpg?w=740&t=st=1696099933~exp=1696100533~hmac=d44d24fe71558800ef3336d1948afbb617e2e4da5b9ec93a01d8c3a9908216f3"alt="Logo"/>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <button class="login">Login</button>
+    </nav>
+    <div class="container_para">
+      <div class="item1">
+          <h1>Healthy Food</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias autem repudiandae error ea reprehenderit perspiciatis, expedita quos eligendi ab, porro itaque obcaecati? Molestiae dolorem vero explicabo, ipsa non eius nesciunt iusto voluptas consectetur, distinctio facilis amet iste eum illum. Voluptatem perspiciatis saepe facilis sapiente earum, perferendis sed provident repellat quidem.</p>
+          <button class="read" type="button">Read More</button>
+      </div>
+      <div class="item2">
+          <img src="https://images.pexels.com/photos/6608618/pexels-photo-6608618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      </div>
+  </div>
+  </body>
+</html>
