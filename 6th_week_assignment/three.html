@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+        }
+        .foot{
+            margin-top: auto;
+            height: 400px;
+            width: 100%;
+            background-color: #2d2d2d;
+        }
+        .image1{
+            height: 60px;
+            width: 160px;
+        }
+        .image1 >  img {
+            margin-top: 0px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            
+        }
+        .image2{
+            height: 140px;
+            width:240px;
+            ;
+        }
+        .image2 >  img{
+            margin-top: 25px;
+            margin-left: 0px;
+        }
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            width: 100%;
+            margin: 50px 10px;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .box1 > a {
+            text-decoration: none;
+        }
+        .box1_ul > li {
+            list-style: none;
+        }
+        .box2{
+            margin-right: 100px;
+        }
+        .box3{
+            margin-right: 100px;
+        }
+        .box3_ul > li {
+            list-style: none;
+        }
+        td{
+            height: 60px;
+            width: 130px;
+        }
+        td > a {
+            margin-right: 20px;
+        }
+        .box3_ul > li{
+            height: 35px;
+            width: 130px;
+        }
+        .box3_ul > a {
+            margin-bottom:10px;
+        }
+        .box1_ul > a {
+            margin-bottom: 10px;
+        }
+        h1 {
+             color: white;
+        }
+        hr {
+            border: 1px solid #ab7717;
+        }
+        p {
+             color: white;
+        }
+        .li{
+             color: white ;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <footer class="foot">
+        <div class="card">
+            <div class="box1">
+                <ul class="box1_ul">
+                    <li class="image1"><img src="./PWSkills-white.png" alt=""></li>
+                    <br>
+                    <li class="li"><label for="email">Email Us:</label>
+                    <br>
+                    <a href="">support@pwskills.com</a></li>
+                    <br>
+                    <li class="image2"><img src="./ISO_LOGO_Final.png" alt=""></li>
+                    <br>
+                    <li class="li"><p>ISO 9001</p></li>
+                </ul>
+            </div>
+            <div class="box2">
+                <h1>PW Skills</h1>
+                <hr>
+                <table>
+                    <tr class="row1">
+                        <td><a class="about" href="#">About Us</a></td>
+                        <td><a class="about" href="#">Contact Us</a></td>
+                    </tr>
+                    <tr class="row2">
+                        <td><a href="#">FAQs</a></td>
+                        <td>
+                            <a href="#">Job
+                                <br>
+                                assistance</a>
+                        </td>
+                    </tr>
+                    <tr class="row3">
+                        <td><a href="#">Privacy Poilicy</a></td>
+                        <td>
+                            <a href="#">Term and
+                                <br>
+                                Conditions</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box3">
+                <h1>Products</h1>
+                <hr>
+                <ul class="box3_ul">
+                    <li><a href="#">PW Skills Lab</a></li>
+                    <li><a href="#">Job Portal</a></li>
+                    <li><a href="#">Experience Portal</a></li>
+                    <li><a href="#">Become an affiliate</a></li>
+                    <li><a href="#">Job assistance</a></li>
+                    <li><a href="#">Hall of fame</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
