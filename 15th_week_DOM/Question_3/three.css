@@ -1,0 +1,12 @@
+#section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 25px;
+}
+#increament{
+    font-size: 30px;
+}
+h1{
+    padding-left: 25px;
+}
